@@ -1,0 +1,441 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    margin-top: 40px;
+}
+
+/* Header Başlangıc */
+/*Top-header Başlangıc*/
+#header-container , .section-wrapper {
+    width: 95%;
+    margin: auto;
+}
+
+#header-wrapper {
+    text-align: end;
+}
+
+#header-wrapper > a {
+    color: darkgray;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+#header-wrapper > a:hover {
+    color: gray;
+}
+/*Top-header Bitiş*/
+
+/* Bottom-header Başlangıc*/
+#bottom-wrapper {
+    height: 50px;
+    display: flex;
+}
+.bt-brand,
+.bt-search,
+.bt-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bt-brand {
+    width: 25%;
+}
+
+.bt-search {
+    width: 35%;
+    padding: 10px;
+}
+.bt-search input {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(226, 224, 224);
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    padding: 5px;
+}
+
+.bt-menu {
+    width: 32%;
+}
+
+.bt-menu a {
+    padding: 0 10px;
+    color: rgb(53, 52, 52);
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.bt-menu a:hover {
+    color: orangered;
+}
+
+.bt-menu  > a > span {
+    margin-right: 6px;
+}
+
+/* Bottom-header Bitiş*/
+/* Header Bitiş */
+
+
+/*Navbar Başlangıc*/
+.navBar-wrapper {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.575);
+}
+.navBar-wrapper > ul {
+    width: 100%;
+    margin-left: 18%;
+    list-style: none;
+    display: flex;
+    margin-bottom: -8px;
+   
+}
+.navBar-wrapper > ul > li {
+    margin: 5px;
+    padding: 3px 6px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.navBar-wrapper > ul > li > a {
+    color: black;
+}
+
+.navBar-wrapper > ul > li > a:hover {
+border-bottom: 2px solid orangered;
+color: orangered;
+}
+
+/*Navbar Bitiş*/
+
+/*companyNames Başlangıc*/
+
+.companyNames {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.companyNames > a {
+    width: 95px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0px 5px;
+}
+
+.companyNames > a:hover{
+    color: orangered;
+}
+
+.companyNames > a > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+}
+
+.companyNames > a > img:hover {
+    border: 1px solid orangered;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+.cn-text {
+    padding-top: 3px;
+    font-size: 10px;
+}
+
+/*companyNames Bitiş*/
+
+/* Section Başlangıc*/
+
+.section-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+/* Section left Balangıc*/
+.section-left {
+    width: 52%;
+    margin-left: 10%;
+}
+
+.sl-cards {
+    width: 100%;
+    height: 246px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+}
+.slc-img {
+    height: 206px;
+}
+.slc-img > img {
+    border-radius: 10px 10px 0 0;
+}
+
+.slc-banner {
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 0 0 10px 10px;
+    padding:  0 15px;
+}
+.slc-banner:hover{
+    background-color: orange;
+}
+    
+/* Section left Bitiş*/
+.section-right {
+    width: 32%;
+}
+
+.sr-cards {
+    width: 335px;
+    height: 325px;
+    border: 1px solid gray;
+    background-image: url(img/mega.png);
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 35px;
+}
+
+.sr-inL,.sr-inR {
+    width: 50%;
+}
+
+.sr-inL {
+    padding: 2px;
+}
+
+.sr-img {
+    width: 148px;
+    height: 200px;
+    position: relative;
+    left: 24px;
+    bottom: 30px;
+
+    
+}
+.sr-img > img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.sr-inR {
+    padding-left: 48px;
+}
+.srR-text {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    position: relative;
+    bottom: 110px;
+    right: 10px;
+    
+}
+
+/* Section Bitiş*/
+
+/* Section 2 Başlangıc*/
+.section-wrapper-2 {
+    width: 80%;
+    margin: auto;
+    margin-left: 12%;
+   
+}
+.s2-row{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.s2-cards {
+    width: 27%;
+    height: 200px;
+}
+.s2c-img  {
+    height: 80%;
+    
+}
+.s2c-img > img {
+    border-radius: 10px 10px 0 0 ;
+}
+.s2c-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+}
+
+/* Section 2 Bitiş*/
+
+/* Footer Başlangıc*/
+footer {
+    border: 1px solid rgb(128, 128, 128, 0.185);
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.footer-wrapper {
+    width: 80%;
+    margin-left: 12%;
+}
+/* Top Footer Başlangıc*/
+.footer-wrapper {
+    display: flex;
+}
+.footer-50 {
+    width: 50%;
+
+    
+}
+.list-wrapper {
+    display: flex;
+    
+}
+.liste-33 {
+    width: 33%;
+}
+.liste-33 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.liste-33 ul li {
+    margin: 10px 0;
+}
+.liste-33 ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+/* Top Footer Başlangıc*/
+
+/* Bottom Footer Başlangıc*/
+.bottom-footer {
+    margin-top: 0;
+}
+.footer-wrapper-bottom {
+    width: 65%;
+    margin-left: 12%;
+}
+.bottom-footer {
+    background-color: black;
+    color: white;
+    height: 550px;
+}
+.bf-row {
+    display: flex;
+    justify-content: space-between;
+}
+.bf-25 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.bf-25 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.bf-25 ul li {
+    margin: 10px 0;
+}
+.bf-25 ul li a {
+    color: white;
+    text-decoration: none;
+}
+/* Bottom Footer Bitis*/
+#payment {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+ #payment li {
+    width: 20%;
+    padding: 5px;
+    margin-top: 0;
+ }
+ #payment img {
+    width: 100%;
+    border-radius: 10px;
+ }
+
+ #mStores{
+    margin-top: 0;
+    margin-left: 20%;
+ }
+ #mStores img{
+    width: 30%;
+ }
+
+ #socialMedia {
+    display: flex;
+ }
+.fab {
+    width: 30px;
+    margin: 4px;
+}
+.row{
+    display: flex;
+}
+.qrCode , .Stamp {
+    width: 50%;
+    padding:10%;
+    padding-left: 0;
+}
+.row img {
+    width: 100%;
+}
+
+.guvenli-jtf {
+    justify-content: start;
+}
+.footer-banner {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    color: white;
+    padding: 0 25px;
+}
+.footer-banner p {
+    margin: 10px 0;
+}
+.ftb-list a  {
+    margin: 0 15px;
+    color: white;
+}
+/* Footer Bitis*/
